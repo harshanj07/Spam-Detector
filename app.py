@@ -70,7 +70,7 @@ try:
     def predict(s):
         str1 = transform_text(s)
 
-        vec_input = t.transform([s])
+        vec_input = t.transform([str1])
 
         result = list(m.predict(vec_input))
 
