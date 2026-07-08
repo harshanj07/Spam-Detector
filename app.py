@@ -23,6 +23,7 @@ ps = PorterStemmer()
 # Download NLTK resources silently
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 
 # Load pickles
 t = pickle.load(open('vectorizer.pkl', 'rb'))
